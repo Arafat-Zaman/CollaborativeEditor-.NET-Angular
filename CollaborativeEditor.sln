@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollaborativeEditor", "CollaborativeEditor\CollaborativeEditor.csproj", "{6AD3CD08-37D2-4053-AA1F-FF89CDA7EF92}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CollaborativeEditorWeb", "CollaborativeEditorWeb\", "{C8D4AE64-39ED-4317-8DD4-675AE087B9A6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_50659"
+		Debug.AspNetCompiler.PhysicalPath = "CollaborativeEditorWeb\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50659\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_50659"
+		Release.AspNetCompiler.PhysicalPath = "CollaborativeEditorWeb\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_50659\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "50659"
+		SlnRelativePath = "CollaborativeEditorWeb\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6AD3CD08-37D2-4053-AA1F-FF89CDA7EF92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AD3CD08-37D2-4053-AA1F-FF89CDA7EF92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AD3CD08-37D2-4053-AA1F-FF89CDA7EF92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AD3CD08-37D2-4053-AA1F-FF89CDA7EF92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8D4AE64-39ED-4317-8DD4-675AE087B9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D4AE64-39ED-4317-8DD4-675AE087B9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8D4AE64-39ED-4317-8DD4-675AE087B9A6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8D4AE64-39ED-4317-8DD4-675AE087B9A6}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FB64F3A0-B02E-4431-BDB0-B9B6ED139D10}
+	EndGlobalSection
+EndGlobal
